@@ -30,3 +30,10 @@ To install and run:
 ```
 > docker-machine ip <name of your running Docker machine>   # See 'docker-machine ls' if you don't know the name
 ```
+
+# Exported notebooks
+
+Following are HTML exports of the notebooks:
+
+* [basic_experiments](https://rawgit.com/rsmith72/spark-experiments/master/basic_experiments.html)
+
