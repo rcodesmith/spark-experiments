@@ -19,10 +19,12 @@ To install and run:
 
 1. Install Docker: https://docs.docker.com/engine/installation/
 2. Create and run a Docker container based on the above pyspark-notebook image:
+
   ```
   > export SPARK_EXPERIMENTS=<full path to directory containing this project>
   > docker run -d -p 8888:8888 -v $SPARK_EXPERIMENTS:/home/jovyan/work --name spark-experiments jupyter/pyspark-notebook
   ```
+
 3. Open http://127.0.0.1:8888
 4. If the above URL doesn't work, use the IP address of the Docker machine:
 ```
