@@ -44,4 +44,6 @@ Once you're done, you can remove the above Docker container using:
 Following are HTML exports of the notebooks:
 
 * [basic_experiments](https://rawgit.com/rsmith72/spark-experiments/master/basic_experiments.html)
+* [csv_sql](https://rawgit.com/rsmith72/spark-experiments/master/csv_sql.html) - Spark SQL experiments using government data
+
 
